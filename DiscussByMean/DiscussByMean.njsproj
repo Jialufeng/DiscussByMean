@@ -3,16 +3,15 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>DiscussByMean.Website</Name>
+    <Name>DiscussByMean</Name>
     <RootNamespace>DiscussByMean</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a017e26b-e5ab-45b0-8944-23ddf4e54bb9</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
+    <ProjectGuid>a8b2cd68-8f55-413f-8b46-f2b75b97a7d9</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
     <StartupFile>server.ts</StartupFile>
     <StartWebBrowser>True</StartWebBrowser>
     <SearchPath>
