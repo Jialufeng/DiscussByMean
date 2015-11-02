@@ -36,15 +36,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="package.json" />
+    <Content Include="public\login.html" />
+    <Content Include="public\main.html" />
+    <Content Include="public\register.html" />
+    <Content Include="public\stylesheets\style.css" />
     <Content Include="README.md" />
+    <Content Include="views\error.jade" />
+    <Content Include="public\index.html" />
+    <Content Include="views\index.jade" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="public\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\javascripts\" />
+    <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
+    <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="models.js" />
     <Compile Include="passport-init.js" />
+    <Compile Include="public\javascripts\app.js" />
     <Compile Include="routes\api.js" />
     <Compile Include="routes\authenticate.js" />
     <Compile Include="routes\index.js" />
