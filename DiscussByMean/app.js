@@ -11,7 +11,7 @@ var passport = require('passport');
 mongoose.connect('mongodb://localhost/DiscussByMean');
 
 
-var initPassport = require('./passport-init');
+var initPassport   = require('./passport-init');
 initPassport(passport);
 var authenticate = require('./routes/authenticate')(passport);
 var index = require('./routes/index');
@@ -44,6 +44,7 @@ app.use("/auth", authenticate);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
+	
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
